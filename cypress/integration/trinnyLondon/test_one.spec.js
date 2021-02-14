@@ -5,7 +5,7 @@ describe('Performing user journey', function(){
 
     it('Navigate to trinnylondon website and ', ()=>{
         cy.visit('https://trinnylondon.com/uk/')
-        cy.get('.SignUsers_signInLink_3hKiP',{timeout: 2000}).should('contain', 'sign in')
+        cy.get('.SignUsers_signInLink_3hKiP',{timeout: 2500}).should('contain', 'sign in')
     })
     it('Navigate to Makeup page and add BFF cream to basket', () => {
 
